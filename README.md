@@ -42,11 +42,15 @@ Feel free to contact me! <br />
 
 ### 11. [Linux Text Editors](#te)
 
+### 12. [Linux TimeZones Commands](#timezones)
+
+
 <hr/>
 
 ## Linux Network Commands <a id="network"></a>
 
 <hr/>
+
 ### SSH
 login into a remote Linux machine using SSH
 
@@ -56,6 +60,7 @@ SSH username@ip-address or hostname
 ```
 
 <hr/>
+
 ### dir
 
 Display files in the current directory of a remote computer
@@ -1039,3 +1044,39 @@ p
 
 <hr/>
 
+## Linux Timezones Commands <a id="timezones"></a>
+
+<hr/>
+
+### timedatectl
+
+Display current Timezone
+
+```bash
+## this displays current timezone
+timedatectl
+```
+
+<hr/>
+
+### timedatectl list-zones
+
+Displays a list of timezones 
+
+```bash
+## this displays a list of available timezones
+timedatectl list-zones
+```
+
+<hr/>
+
+### sudo timedatectl set-timezone <your_time_zone>
+
+Set Timezone
+
+```bash
+## this will set timezone to your preferred timezone on the list, for example let us set for Africa/Lagos.  You have to run the command as root user or sudo user
+sudo timedatectl set-timezone Africa/Lagos
+```
+
+<hr/>
