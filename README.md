@@ -40,6 +40,8 @@ Feel free to contact me! <br />
 
 ### 10. [Linux File Permission Commands](#fp)
 
+### 11. [Linux Text Editors](#te)
+
 <hr/>
 
 ## Linux Network Commands <a id="network"></a>
@@ -318,6 +320,19 @@ touch file1.txt index.js
 
 <hr/>
 
+<hr/>
+
+### diff
+
+Display difference between two files
+```bash
+## show difference between the contents of two files
+dif [options] file1 file2 or dif file1 file2
+
+```
+
+<hr/>
+
 ### cat
 
 1. Displays the content of the file
@@ -356,6 +371,22 @@ head file.txt
 
 ## Displays the last 10 lines of file.txt
 tail file.txt
+```
+
+<hr/>
+
+<hr/>
+
+### tar
+
+Command to extract and compress files
+
+```bash
+## Work with compression using tar and its options 
+tar [options] [archive file] [file or directory]
+
+## Creating a gzip compression on a tar archive. this creates a tar file called file.tar.gz which is the archive of .c files
+tar cvzf file.tar.gz *.c
 ```
 
 <hr/>
@@ -911,3 +942,100 @@ sudo chgrp root index.js
 ```
 
 <hr/>
+
+## Linux Text Editors <a id="te"></a>
+
+<hr/>
+
+### vi 
+
+Split vim window horizontally inside vim mode. You need to be inside your vim window to run this command.
+```bash
+## split vim window
+ctrl. + ws
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Switch between windows. you need to have split window activated first.
+```bash
+## switch between vim windows
+ctrl. + ww
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Split vim window vertically inside vim mode. You need to be inside your vim window to run this command.
+```bash
+## split vim window
+ctrl. + wv
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Quit window. exit vim window with this command.
+```bash
+## quit vim window
+ctrl. + wq
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Cursor movement inside vim mode. use this commands to navigate around vim
+```bash
+## move up
+k
+
+## move down
+j
+
+## move left
+h
+
+## move right
+l
+
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Copy a line on vim. this command copies contents of a vim cursor line.works outside insert mode.
+```bash
+## copy line
+yy
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Paste a line on vim. this command copies contents of a vim cursor line. works outside insert mode.
+```bash
+## copy line
+p
+```
+
+<hr/>
+
