@@ -40,6 +40,8 @@ Feel free to contact me! <br />
 
 ### 10. [Linux File Permission Commands](#fp)
 
+### 11. [Linux Text Editors](#te)
+
 <hr/>
 
 ## Linux Network Commands <a id="network"></a>
@@ -908,6 +910,32 @@ Change group owner of file. You need sudo privileges for executing this command.
 ```bash
 ## Change group ownership of index.js from user to root
 sudo chgrp root index.js
+```
+
+<hr/>
+
+## Linux NText Editors <a id="te"></a>
+
+<hr/>
+
+### vi 
+
+Split vim window inside vim mode. You need to be inside your vim window to run this command.
+```bash
+## split vim window
+ctrl. + ws
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Switch between windows. you need to have split window activated first.
+```bash
+## switch between vim windows
+ctrl. + ww
 ```
 
 <hr/>
