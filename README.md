@@ -320,6 +320,19 @@ touch file1.txt index.js
 
 <hr/>
 
+<hr/>
+
+### diff
+
+Display difference between two files
+```bash
+## show difference between the contents of two files
+dif [options] file1 file2 or dif file1 file2
+
+```
+
+<hr/>
+
 ### cat
 
 1. Displays the content of the file
@@ -358,6 +371,22 @@ head file.txt
 
 ## Displays the last 10 lines of file.txt
 tail file.txt
+```
+
+<hr/>
+
+<hr/>
+
+### tar
+
+Command to extract and compress files
+
+```bash
+## Work with compression using tar and its options 
+tar [options] [archive file] [file or directory]
+
+## Creating a gzip compression on a tar archive. this creates a tar file called file.tar.gz which is the archive of .c files
+tar cvzf file.tar.gz *.c
 ```
 
 <hr/>
@@ -985,3 +1014,28 @@ l
 ```
 
 <hr/>
+
+<hr/>
+
+### vi 
+
+Copy a line on vim. this command copies contents of a vim cursor line.works outside insert mode.
+```bash
+## copy line
+yy
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Paste a line on vim. this command copies contents of a vim cursor line. works outside insert mode.
+```bash
+## copy line
+p
+```
+
+<hr/>
+
