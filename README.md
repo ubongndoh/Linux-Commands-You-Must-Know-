@@ -914,13 +914,13 @@ sudo chgrp root index.js
 
 <hr/>
 
-## Linux NText Editors <a id="te"></a>
+## Linux Text Editors <a id="te"></a>
 
 <hr/>
 
 ### vi 
 
-Split vim window inside vim mode. You need to be inside your vim window to run this command.
+Split vim window horizontally inside vim mode. You need to be inside your vim window to run this command.
 ```bash
 ## split vim window
 ctrl. + ws
@@ -936,6 +936,52 @@ Switch between windows. you need to have split window activated first.
 ```bash
 ## switch between vim windows
 ctrl. + ww
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Split vim window vertically inside vim mode. You need to be inside your vim window to run this command.
+```bash
+## split vim window
+ctrl. + wv
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Quit window. exit vim window with this command.
+```bash
+## quit vim window
+ctrl. + wq
+```
+
+<hr/>
+
+<hr/>
+
+### vi 
+
+Cursor movement inside vim mode. use this commands to navigate around vim
+```bash
+## move up
+k
+
+## move down
+j
+
+## move left
+h
+
+## move right
+l
+
 ```
 
 <hr/>
