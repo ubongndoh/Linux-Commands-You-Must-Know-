@@ -912,6 +912,21 @@ chmod 000 index.js
 
 ## Give all permission to directory owner and no permission to anybody else
 chmod 700 dir
+
+#  Recursively set read, write, and execute permissions to the file owner and no permissions for all other users on a given directory:
+
+chmod -R 700 dirname
+
+# Recursively Change the File’s Permissions
+
+# To recursively operate on all files and directories under the given directory, use the -R (--recursive) option:
+
+chmod -R MODE DIRECTORY
+
+# For example, to change the permissions of all files and subdirectories under the /var/www directory to 755 you would use:
+
+chmod -R 755 /var/www
+
 ```
 
 <hr/>
