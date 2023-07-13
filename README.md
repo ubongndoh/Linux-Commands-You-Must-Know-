@@ -1095,3 +1095,15 @@ sudo timedatectl set-timezone Africa/Lagos
 ```
 
 <hr/>
+
+### | pipe 
+
+attach results of a command to another.
+
+
+## you can see all other things you can do with this command
+| -h e.g ls -a | touch file
+```
+
+<hr/>
+
